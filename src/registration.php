@@ -14,6 +14,7 @@ echo "<script type='text/javascript'>alert('$message');</script>";
 else {
     $message = "password didnt matched1";
     echo "<script type='text/javascript'>alert('$message');</script>";
+    //  header("location:/index.php");
 }
 ?>
 

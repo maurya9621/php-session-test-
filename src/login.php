@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start(); 
 ?>
 
 <?php
@@ -18,5 +18,7 @@ $Pass=$_POST["Password"];
      echo "<script type='text/javascript'>alert('$message');</script>";   
  }
 
+
 ?>
+<a href="logout.php">Log Out Btn</a>
 
